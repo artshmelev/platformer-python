@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" width="417" height="288"/>
+ </tileset>
+ <tileset firstgid="118" name="box" tilewidth="32" tileheight="32">
+  <image source="box.png" width="32" height="32"/>
+ </tileset>
+ <layer name="background" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt3Elv00AYxvEAhyAO7OoFKFe2igP7hSLawgEQ25XtU/D5eSoRYhmP4/G8s/r/kx71UNeZpH4y4zjJerVarR0BlqzVHjzMPQA0oYR+PFIeG++TfsBCCf2IgX7AglU/XiqHyquZf3/NYAyANat+vFPeKx8M9uUSYx0GjLFcX7012g9QilbPPwALNfTjeu4BYLF8+sH6H0tTw/wxhrkFMdXeDyAm+gG47eoH1+2wZKnnD87xURPWV4Bbvx+h76MCWtLvR4r3UQG1CF1fnf+bUnB+A0ucfwButfaD152RQq39AFKgH4Ab/QDc6AfgRj8At1L7wXUMlKDUfgAloB+AG93AEsxdr9MPwI1+AG70A3BL3Y9Un7/i9WFYSN2P1j5/RQ/t7Hosc3y2lfXVVkvHekv3ZSPHc2tIP1r8H+TGY1oW5g9shHSz1F77jqu/fYx++K4T+Q7drSvK1dyDwD+bflh+XrW1c3ArZ5SzyrmRbQ46QX6sr9K5qFxSLq/+nydS9eKCZ5YuRz8OE9+e1euCofs5mJBY42jteC/1fKdGVuu90P1YdGPuOHznjZa6ZIVOxmXRjVSG+mF9fKQ+3ly3d0O5qdxS9pXbCceErdzd8Jk3ljR/3FHuKveU+8qDvMNZrKndiNUZ+jHsifJUeaY8V14MbNOdX5BPzDllPTFL81o5Uo6VE+XNwDbd+WVIiWtkH3szf6YUe80V2o8p129q9FH5pHxWvihfB7bpzi99Pte3U34v7tTb2gvMqdjXtUPOSX5P3C60H2PXb8b4PNfkeF76pnxXfig/lV+9308ZU/dYicH3MRzaPrQHuzoS475YjtvyNuYI3eeUvx/bV4xj9HR/fwApUzlg
+  </data>
+ </layer>
+ <layer name="platforms" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt3etqwkAQhmH/KfZ3xZvo7Xn9JWCpBCeZWXdO+j4QKJLDJtmvm83xcJAdGw+AJ+oYIHvMx3daKYCaaD8AWXQ+6H+gk9E6pqm3R2F8oAvP+koW0B35AGSV8rGM/2McAE/aOhx1vU+q82QBGSz5yEQ+kEFT72/K8TxwLIVMe/Xeenx0uk93GphWOr4iH8gS1S5olkM+UM1SJ29By9Ggf45qIjJCPtCZd0bIB7rzzIglH+v+Bv0PVLF1j+zWfYia82AatB/oZJ0Pb+QDnZAPQJaZD+lvoAraD0BGPoA6yAcgk56BIh8A7QewhXwAMvKBDNnPx2qRD2Tomg+er0WErvnY+x2YoUs+JOQDnsgHIOuSD96ViAxV87F+XvFZ/xzwVi0f2raBfCBCtXwsNMdN5AMRLPmodMxfoQx4f9Z8zDaaN/KBCFvf1lirVCcrlWUmjzb6fB9g96z9kPbRjH02a793yoe2rN7rdDYOn876Xcytd0RH90veLR/V1od8zMlHlkpl2WM9Fzd73UbaDfJBPqJYruN4tMOWuk4+/lnyYd1vnu+oujnM05P23mOvZ+rJxxhtPqpc81hUugajpTk/6Pn/xHKMUPF6cRZNPqq9JyQyG5eBab4Gpnml/6F5r352PjTbcWRbPxrZ7nuqtB+WbydEtx3W/XY1jm+5ziT9vrf9PiEfy3af/Q2Ov21x2RkOyvFGB8u8pbJ48lqXmeWeuYzRffjKPGdNP7te/gLnnTWG
+  </data>
+ </layer>
+ <layer name="dang_blocks" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt3EEKwyAQBVBvNIfq/e+QTbubCamm0aTvwWBw4eLDgAS1NWCmeBcAAOOi+Ab66CMAgH3Z/91qDgAAAAAAAACeZO/cbjR3puDDORKo6Q+o6Q+oRVIAAAAAAAAAAAAAAAAAAPAv3K8FAADO5i0fWF8Mjow5kqOs59Abc32To8yvc/e93SupbH4V2RuZPfmftQ7wexvMsw8N
+  </data>
+ </layer>
+ <objectgroup name="monsters" width="200" height="50">
+  <object name="Player" gid="98" x="127" y="1566"/>
+  <object name="Princess" gid="97" x="6303" y="1565"/>
+ </objectgroup>
+</map>
