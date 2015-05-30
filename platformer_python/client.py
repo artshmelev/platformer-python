@@ -77,7 +77,7 @@ def main():
     pygame.init()
     # pygame.time.wait(2000)
     FPSCLOCK = pygame.time.Clock()
-    SCREEN = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
+    SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption('Platformer Game')
     BASICFONT = pygame.font.Font('freesansbold.ttf', 32)
     running = False
